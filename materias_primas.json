@@ -1,0 +1,22 @@
+[
+  {"nome": "MP1", "custo": 5.0, "tempo_entrega":  1},
+  {"nome": "MP2", "custo": 10.0 ,"tempo_entrega": 2},
+  {"nome": "MP3", "custo": 15.0, "tempo_entrega": 3},
+  {"nome": "MP4", "custo": 20.0, "tempo_entrega":4},
+  {"nome": "MP5", "custo": 25.0, "tempo_entrega": 5},
+  {"nome": "MP6", "custo": 30.0, "tempo_entrega": 6},
+  {"nome": "MP7", "custo": 35.0, "tempo_entrega": 7},
+  {"nome": "MP8", "custo": 40.0, "tempo_entrega": 8},
+  {"nome": "MP9", "custo": 45.0, "tempo_entrega": 9},
+  {"nome": "MP10", "custo": 50.0, "tempo_entrega": 10},
+  {"nome": "MP11", "custo": 55.0, "tempo_entrega": 11},
+  {"nome": "MP12", "custo": 60.0, "tempo_entrega": 12},
+  {"nome": "MP13", "custo": 65.0, "tempo_entrega": 13},
+  {"nome": "MP14", "custo": 70.0, "tempo_entrega": 14},
+  {"nome": "MP15", "custo": 75.0, "tempo_entrega": 15},
+  {"nome": "MP16", "custo": 80.0, "tempo_entrega": 16},
+  {"nome": "MP17", "custo": 85.0, "tempo_entrega": 17},
+  {"nome": "MP18", "custo": 90.0, "tempo_entrega": 18},
+  {"nome": "MP19", "custo": 95.0, "tempo_entrega": 19},
+  {"nome": "MP20", "custo": 100.0, "tempo_entrega": 20}
+]
