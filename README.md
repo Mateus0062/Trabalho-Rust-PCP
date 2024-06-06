@@ -12,7 +12,7 @@ RA: 123117292
 # 2 - Complexidade do Problema Utilizando a análise de complexidade de problemas, classificar o problema quanto à sua complexidade de resolução, se P. NP ou NP-Completo, justificando sua resposta, com base na teoria e exemplos;
   Este problema trata-se de um problema NP-Completo. Para definir se um problema é um problema da classe NP, deve-se seguir este conceito:  A classe NP contém os problemas que podem ser verificados por um algoritmo polinomial, ou seja, um algoritmo que consome um tempo limitado por um polinômio no tamanho da entrada e da solução.
 
-Entretanto, os problemas NP-Completos implicam que o problema não pode ser resolvido em tempo polinomial. O problema de Planejamento e controle de produção não pode ser resolvido em tempo polinomial, ou seja, não é possível encontrar uma solução ótima para este problema, atendendo todas as restrições. Devido aos números de combinações possíveis, incertezas, restrições complexas, resultam em um problema da classe NP-Completo.
+Entretanto, os problemas NP-Completos implicam que o problema não pode ser resolvido em tempo polinomial. O problema de Planejamento e controle de produção não pode ser resolvido em tempo polinomial, ou seja, não é possível encontrar uma solução ótima para este problema, atendendo todas as restrições. Devido aos números de combinações possíveis, incertezas, restrições complexas que resultam em um problema da classe NP-Completo.
 
 # 3 - Algoritmos conhecidos Pesquisar os algoritmos conhecidos que resolvam o problema em questão, tentando, ao máximo, colocar características de cada um;
  Algoritmos gulosos - 
