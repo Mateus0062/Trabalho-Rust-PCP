@@ -79,16 +79,11 @@ pub fn calcular_lotes_compra(demanda: &HashMap<String, u32>) -> HashMap<String, 
     let mut lotes_compra: HashMap<String, u32> = HashMap::new();
 
     for (materia_prima, quantidade) in demanda {
-        let lote_compra = *quantidade; // Aqui você pode adicionar lógica adicional para ajustar os lotes de compra
+        let lote_compra = *quantidade; 
         lotes_compra.insert(materia_prima.clone(), lote_compra);
     }
     lotes_compra
 }
-
-//tempo_entrega_meses1: &str = data_entrega da struct MateriaPrima
-//tempo_fabricação_meses: i32 = tempo_fabricação da struct Produto
-//data_entrega: &str = data_entrega da struct Pedido
-
 
 pub fn calcular_data_pedido(data_entrega: &str, tempo_fabricacao: i32, tempos_entrega: &[i32]) -> String {
     let data_entrega_date = NaiveDate::parse_from_str(data_entrega, "%Y-%m-%d").unwrap();
