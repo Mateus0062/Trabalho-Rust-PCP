@@ -66,3 +66,29 @@ Programação dinâmica -
 * Exemplos incluem o algoritmo de Floyd-Warshall para o problema do caminho mais curto e o algoritmo de Knapsack para o problema da mochila.
 
 # 4 - Algoritmo escolhido e implementação Apontar o algoritmo escolhido, indicando a fonte de onde tirou o mesmo, implementar e versionar no GitHub;
+
+  Não escolhi nenhum algoritmo para resolução desse problema. Utilizei métodos, parecidos com a programação dinâmica para resolver.
+
+  Decidi implementar funções que calculassem o que era necessário e depois me retornam um resultado, exemplo de funções com "calcular_data_pedido".
+  Essa função calcula quando deve ser feito um pedido, considerando o menor tempo possível para que os produtos fiquem em estoque, fazendo assim com que a entrega seja realizada com sucesso. 
+
+# 5 - Complexidade do algoritmo escolhido Utilizando o método de contagem simples, classificar com a classificação Big-O, o algoritmo, destacando o trecho de maior complexidade;
+
+  Acredito que por não usar um algoritmo específico, posso calcular o big-O de todas as funções e destacar os trechos de maior complexidade de cada função, separadamente. 
+
+
+# 6 - Paradigma e Estratégia do algoritmo escolhido Evidenciar, analisar e apresentar quais estratégias o algoritmo escolhido utiliza;
+
+  A estratégia utilizada foi dividir as restrições em subproblemas, para que as tarefas fossem tratadas individualemente.  
+
+# 7 - Comparação com, pelo menos mais um algoritmo Selecionar outro algoritmo, que não o escolhido e comparar em complexidade e paradigma
+
+  O que mais se asemelha, são algoritmos de programação dinâmica. Um algoritmo que pode ser escolhido é: Algoritmo de Knapsack
+  
+  A complexidade de tempo é determinada pelo número de subproblemas que precisam ser resolvidos e pelo tempo necessário para resolver cada subproblema. 
+  a complexidade de tempo para a solução por programação dinâmica é O(nc). 
+
+# 8 - Linguagem Explique como o Rust foi utilizado no desenvolvimento do algoritmo;
+
+  O rust teve um papel fundamental para o desenvolvimento do meu algoritmo. As bibliotecas usadas são muito boas e a forma como o Rust trata os dados é muito impressionante.
+  Utilizei a biblioteca de HashMap: onde precisei usar uma chave e um valor, Chrono: Para conseguir tratar datas, serde: para conseguir desserializar os arquivos json. 
